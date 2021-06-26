@@ -1,28 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2021-06-26T00:05:47.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="NY94hx4K1982fNQBRn3R" version="14.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-26T00:27:28.808Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="i9LgqE5f1Z-94tgNbNZq" version="14.8.1" type="github">
   <diagram id="v4buRE5ptZxtvALEfj65" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="g1BGLv2u2QTpNlaoq-qh-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="g1BGLv2u2QTpNlaoq-qh-1" target="g1BGLv2u2QTpNlaoq-qh-9">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="40" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="g1BGLv2u2QTpNlaoq-qh-1" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="40" width="80" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="g1BGLv2u2QTpNlaoq-qh-4" value="&lt;p&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;EquiposOneClickV2Controller es donde se configuran los endpoints para la aplicacion&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="130" y="90" width="240" height="40" as="geometry" />
+          <mxGeometry x="120" y="80" width="480" height="20" as="geometry" />
         </mxCell>
         <mxCell id="g1BGLv2u2QTpNlaoq-qh-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g1BGLv2u2QTpNlaoq-qh-9" target="g1BGLv2u2QTpNlaoq-qh-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="g1BGLv2u2QTpNlaoq-qh-9" value="&lt;span&gt;Se ejecuta el endpoint:&lt;/span&gt;&lt;br&gt;&lt;span&gt;-&amp;nbsp;ProductosOneClick/credito_cobranza/credito/consumo-telefonia/v2/productos/busquedas&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="10" width="500" height="60" as="geometry" />
+          <mxGeometry x="110" y="10" width="500" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g1BGLv2u2QTpNlaoq-qh-12" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="10" width="120" height="60" as="geometry" />
+        <mxCell id="g1BGLv2u2QTpNlaoq-qh-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g1BGLv2u2QTpNlaoq-qh-12" target="g1BGLv2u2QTpNlaoq-qh-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g1BGLv2u2QTpNlaoq-qh-12" value="Se obtiene:&lt;br&gt;-&amp;nbsp;idProducto&lt;br&gt;- idPlataformaOferta&lt;br&gt;-&amp;nbsp;lineaCredito" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="10" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g1BGLv2u2QTpNlaoq-qh-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g1BGLv2u2QTpNlaoq-qh-14" target="g1BGLv2u2QTpNlaoq-qh-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g1BGLv2u2QTpNlaoq-qh-23" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g1BGLv2u2QTpNlaoq-qh-18">
+          <mxGeometry x="-0.8306" y="4" relative="1" as="geometry">
+            <mxPoint x="11" y="-41" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g1BGLv2u2QTpNlaoq-qh-14" value="¿Los atributos anteriores son validos (no nulos)?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="652.5" y="110" width="125" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="g1BGLv2u2QTpNlaoq-qh-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g1BGLv2u2QTpNlaoq-qh-17" target="g1BGLv2u2QTpNlaoq-qh-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g1BGLv2u2QTpNlaoq-qh-17" value="Se lanza una excepcion generica con status 400" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="655" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g1BGLv2u2QTpNlaoq-qh-19" value="FIN" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="672.5" y="1070" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g1BGLv2u2QTpNlaoq-qh-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g1BGLv2u2QTpNlaoq-qh-21" target="g1BGLv2u2QTpNlaoq-qh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g1BGLv2u2QTpNlaoq-qh-21" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="20" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
