@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-29T23:45:06.149Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="ypdp60LEKJRUQmv3Ocpf" version="14.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-30T00:10:17.875Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="FAzeWXa69raluWQf-NYO" version="14.8.2" type="github">
   <diagram id="v4buRE5ptZxtvALEfj65" name="Page-1">
-    <mxGraphModel dx="2012" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1808" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,7 +40,7 @@
           <mxGeometry x="655" y="930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g1BGLv2u2QTpNlaoq-qh-19" value="FIN" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="672.5" y="1070" width="85" height="40" as="geometry" />
+          <mxGeometry x="377.5" y="1030" width="85" height="40" as="geometry" />
         </mxCell>
         <mxCell id="g1BGLv2u2QTpNlaoq-qh-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="g1BGLv2u2QTpNlaoq-qh-21" target="g1BGLv2u2QTpNlaoq-qh-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -209,8 +209,70 @@
         <mxCell id="EbiJd6XaGonttQ5qAU7--65" value="Elimina el producto de la lista de productos" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-100" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EbiJd6XaGonttQ5qAU7--68" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="102.5" y="590" width="80" height="80" as="geometry" />
+        <mxCell id="EbiJd6XaGonttQ5qAU7--71" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EbiJd6XaGonttQ5qAU7--68" target="EbiJd6XaGonttQ5qAU7--70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EbiJd6XaGonttQ5qAU7--72" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EbiJd6XaGonttQ5qAU7--71">
+          <mxGeometry x="-0.32" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EbiJd6XaGonttQ5qAU7--74" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EbiJd6XaGonttQ5qAU7--68" target="EbiJd6XaGonttQ5qAU7--73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EbiJd6XaGonttQ5qAU7--75" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EbiJd6XaGonttQ5qAU7--74">
+          <mxGeometry x="-0.2055" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EbiJd6XaGonttQ5qAU7--68" value="¿El JSON tipoCliente tiene la llave &quot;porcentajeDescuento&quot;?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="55" y="585" width="180" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="EbiJd6XaGonttQ5qAU7--79" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EbiJd6XaGonttQ5qAU7--70" target="EbiJd6XaGonttQ5qAU7--78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EbiJd6XaGonttQ5qAU7--70" value="&lt;span&gt;Obtiene los descuentos de renovaciones&amp;nbsp;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="592.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EbiJd6XaGonttQ5qAU7--81" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EbiJd6XaGonttQ5qAU7--73" target="EbiJd6XaGonttQ5qAU7--80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EbiJd6XaGonttQ5qAU7--73" value="Envia el objeto con los SKU al BRMS para validacion" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="85" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EbiJd6XaGonttQ5qAU7--82" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EbiJd6XaGonttQ5qAU7--78" target="EbiJd6XaGonttQ5qAU7--80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EbiJd6XaGonttQ5qAU7--78" value="Envia el objeto de descuento de renovaciones y el objeto con los sku para que el BRM los valide" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="590" width="150" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EbiJd6XaGonttQ5qAU7--84" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EbiJd6XaGonttQ5qAU7--80" target="EbiJd6XaGonttQ5qAU7--83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EbiJd6XaGonttQ5qAU7--87" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EbiJd6XaGonttQ5qAU7--84">
+          <mxGeometry x="-0.6318" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EbiJd6XaGonttQ5qAU7--86" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EbiJd6XaGonttQ5qAU7--80" target="EbiJd6XaGonttQ5qAU7--85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EbiJd6XaGonttQ5qAU7--88" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EbiJd6XaGonttQ5qAU7--86">
+          <mxGeometry x="-0.2336" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EbiJd6XaGonttQ5qAU7--80" value="¿El objeto que regresa la validacion esta vacio?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="700" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="EbiJd6XaGonttQ5qAU7--83" value="" style="shape=waypoint;size=6;pointerEvents=1;points=[];fillColor=#ffffff;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="695" y="745" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EbiJd6XaGonttQ5qAU7--89" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EbiJd6XaGonttQ5qAU7--85" target="g1BGLv2u2QTpNlaoq-qh-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EbiJd6XaGonttQ5qAU7--85" value="Se arma el objeto que será regresado como response&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="880" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
